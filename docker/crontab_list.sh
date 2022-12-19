@@ -85,6 +85,8 @@
 ##############长期活动##############
 # 保价test
 0 20 * * * node /scripts/jd_price.js >> /scripts/logs/jd_price.log 2>&1
+# 点点券
+0 21 * * * node /scripts/jd_necklace_6dy.js >> /scripts/logs/jd_necklace_6dy.log 2>&1
 # 签到
 0 0,18 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
 # 摇京豆
