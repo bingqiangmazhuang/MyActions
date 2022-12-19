@@ -160,3 +160,5 @@
 20 12 * * * node /scripts/jd_beauty_ex.js >> /scripts/logs/jd_beauty_ex.log 2>&1
 # 省钱大赢家之翻翻乐
 40 8,10,12,14 * * * node /scripts/jd_big_winner_Mod.js >> /scripts/logs/jd_big_winner_Mod.log 2>&1
+# 黑号检测
+1 1 1 1 1 node /scripts/jd_blackHome.js >> /scripts/logs/jd_blackHome.log 2>&1
