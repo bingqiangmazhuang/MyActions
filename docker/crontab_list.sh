@@ -83,14 +83,8 @@
 #jd_dwapp
 33 5,17 * * * node /scripts/jd_dwapp.js >> /scripts/logs/jd_dwapp.log 2>&1
 ##############长期活动##############
-# 财富岛兑换红包
-50 * * * * node /scripts/jd_cfd_hb.js >> /scripts/logs/jd_cfd_hb.log 2>&1
-# 京喜签到-喜豆
-30 2,9 * * * node /scripts/jx_sign_xd.js >> /scripts/logs/jx_sign_xd.log 2>&1
 # 保价test
 0 20 * * * node /scripts/jd_price.js >> /scripts/logs/jd_price.log 2>&1
-# 点点券
-35 16 * * * node /scripts/jd_necklace_6dy.js >> /scripts/logs/jd_necklace_6dy.log 2>&1
 # 签到
 0 0,18 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
 # 摇京豆
@@ -153,3 +147,14 @@
 # 48 20 * * * node /scripts/jx_aid_cashback.js >> /scripts/logs/jx_aid_cashback.log 2>&1
 # 清空购物车
 # 0 1 * * * node /scripts/jd_CartRemove.js >> /scripts/logs/jd_CartRemove.log 2>&1
+##############新加活动##############
+# 财富岛兑换红包
+50 * * * * node /scripts/jd_cfd_hb.js >> /scripts/logs/jd_cfd_hb.log 2>&1
+# 京喜签到-喜豆
+30 2,9 * * * node /scripts/jx_sign_xd.js >> /scripts/logs/jx_sign_xd.log 2>&1
+# 点点券
+35 16 * * * node /scripts/jd_necklace_6dy.js >> /scripts/logs/jd_necklace_6dy.log 2>&1
+# 美丽研究院
+3 10 * * * node /scripts/jd_beauty.js >> /scripts/logs/jd_beauty.log 2>&1
+# 美丽研究院--兑换
+20 12 * * * node /scripts/jd_beauty_ex.js >> /scripts/logs/jd_beauty_ex.log 2>&1
