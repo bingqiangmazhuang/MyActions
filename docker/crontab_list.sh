@@ -83,6 +83,8 @@
 #jd_dwapp
 33 5,17 * * * node /scripts/jd_dwapp.js >> /scripts/logs/jd_dwapp.log 2>&1
 ##############长期活动##############
+# 升级赚京豆
+21 9 * * * node /scripts/gua_MMdou.js >> /scripts/logs/gua_MMdou.log 2>&1
 # 财富岛兑换红包
 50 * * * * node /scripts/jd_cfd_hb.js >> /scripts/logs/jd_cfd_hb.log 2>&1
 # 京喜签到-喜豆
