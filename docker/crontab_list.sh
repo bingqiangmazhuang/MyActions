@@ -83,6 +83,8 @@
 #jd_dwapp
 33 5,17 * * * node /scripts/jd_dwapp.js >> /scripts/logs/jd_dwapp.log 2>&1
 ##############长期活动##############
+# 京喜签到-喜豆
+30 2,9 * * * node /scripts/jx_sign_xd.js >> /scripts/logs/jx_sign_xd.log 2>&1
 # 保价test
 0 20 * * * node /scripts/jd_price.js >> /scripts/logs/jd_price.log 2>&1
 # 点点券
