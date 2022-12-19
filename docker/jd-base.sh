@@ -10,7 +10,7 @@ echo "
 \______|    \/               \/     \/     \/     \/
                                                                                                   
 "
-DOCKER_IMG_NAME="shuye72/jd-base"
+DOCKER_IMG_NAME="bingqiangmazhuang/jd-base"
 JD_PATH=""
 SHELL_FOLDER=$(pwd)
 CONTAINER_NAME=""
