@@ -83,6 +83,8 @@
 #jd_dwapp
 33 5,17 * * * node /scripts/jd_dwapp.js >> /scripts/logs/jd_dwapp.log 2>&1
 ##############长期活动##############
+# 财富岛兑换红包
+50 * * * * node /scripts/jd_cfd_hb.js >> /scripts/logs/jd_cfd_hb.log 2>&1
 # 京喜签到-喜豆
 30 2,9 * * * node /scripts/jx_sign_xd.js >> /scripts/logs/jx_sign_xd.log 2>&1
 # 保价test
