@@ -162,3 +162,6 @@
 40 8,10,12,14 * * * node /scripts/jd_big_winner_Mod.js >> /scripts/logs/jd_big_winner_Mod.log 2>&1
 # 黑号检测
 1 1 1 1 1 node /scripts/jd_blackHome.js >> /scripts/logs/jd_blackHome.log 2>&1
+# 吃喝玩乐抽豆
+7 7 7 7 7 node /scripts/jd_lottery_chwl.js >> /scripts/logs/jd_lottery_chwl.log 2>&1
+
